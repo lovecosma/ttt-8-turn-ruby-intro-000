@@ -46,8 +46,5 @@ input = gets.strip
 index = input_to_index(input)
   if valid_move?(board, index)
   move(board, index, x_o)
-  elsif !valid_move?(board, index)
-  puts "Invalid move. Choose another spot"
-  input = gets.strip
-  index = input_to_index(input)
+  end
 end
