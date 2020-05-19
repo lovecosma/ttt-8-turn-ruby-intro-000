@@ -50,4 +50,5 @@ elsif !valid_move?(board, index)
   puts "Invalid move"
   turn(board)
   end
+  display_board(board)
 end
