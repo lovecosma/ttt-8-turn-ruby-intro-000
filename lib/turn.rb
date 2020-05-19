@@ -40,6 +40,7 @@ board[index] = x_o
 end
 
 def turn(board)
+  x_o = "X"
 puts "Please enter 1-9:"
 input = gets.strip
 index = input_to_index(input)
