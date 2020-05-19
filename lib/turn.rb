@@ -47,5 +47,6 @@ index = input_to_index(input)
   move(board, index, "")
 elsif !valid_move?(board, index)
   puts "Invalid move"
+  turn(board)
   end
 end
